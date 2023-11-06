@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
+// IMPLEMENT QUICK SORT USING HOARE PARTITION ALGORITHM
+
 void Print(int* start, int* end) {
     while(start != end) {
         cout << *start << " ";
@@ -13,7 +16,7 @@ int* Partition(int* start, int* end) {
     int n = end - start;
     // cout << "\nstart =  " << *start << " end = " << *(end-1) <<  " n = " << n << endl;
     if(n <= 1) {
-        // cout << "0 ";
+        if(n==1)cout << "0 ";
         return NULL;
     }
     int* tmp_start = start+1;
@@ -76,5 +79,5 @@ int main() {
     return 0;
 }
 
-// 2 0 0 6 1 0 2 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 1 0
+// 2 0 0 6 1 0 2 1 0 0 2 1 0 0 0 0 0 0 1 0
 // 2 0 0 6 1 0 2 1 0 0 2 1 0 0 0 0 0 0 1 0
