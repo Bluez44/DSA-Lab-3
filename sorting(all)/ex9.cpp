@@ -2,7 +2,8 @@
 
 // Your task is to implement a function with following prototype:
 // int minDiffPairs(int* arr, int n);
-// This function identify and return all pairs of elements with the smallest absolute difference among them. If there are multiple pairs that meet this criterion, the function should find and return all of them.
+// This function identify and return all pairs of elements with the smallest absolute difference among them. 
+// If there are multiple pairs that meet this criterion, the function should find and return all of them.
 
 // Note: Following libraries are included: iostream, string, algorithm, sstream
 
